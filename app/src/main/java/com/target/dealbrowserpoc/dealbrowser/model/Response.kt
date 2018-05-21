@@ -1,6 +1,6 @@
 package com.target.dealbrowserpoc.dealbrowser.model
 
-data class DealItem(
+data class Response(
     val _id: String,
     val data: List<Data>,
     val type: String
