@@ -8,7 +8,7 @@ import retrofit2.http.GET
 import rx.Observable
 
 interface ApiService {
-    @GET
+    @GET("api/deals")
     fun getDeals(): Observable<DealItem>
 
     companion object {
@@ -19,7 +19,7 @@ interface ApiService {
                             RxJavaCallAdapterFactory.create())
                     .addConverterFactory(
                             GsonConverterFactory.create())
-                    .baseUrl("http://target-deals.herokuapp.com/api/")
+                    .baseUrl("http://target-deals.herokuapp.com/")
                     .build()
 
             return retrofit.create(ApiService::class.java)
