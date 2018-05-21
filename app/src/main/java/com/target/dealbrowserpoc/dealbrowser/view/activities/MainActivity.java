@@ -3,13 +3,14 @@ package com.target.dealbrowserpoc.dealbrowser.view.activities;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 
 import com.target.dealbrowserpoc.dealbrowser.view.fragments.DealListFragment;
 import com.target.dealbrowserpoc.dealbrowser.R;
 
-public class MainActivity extends Activity implements DealListFragment.OnFragmentInteractionListener {
+public class MainActivity extends AppCompatActivity implements DealListFragment.OnFragmentInteractionListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
