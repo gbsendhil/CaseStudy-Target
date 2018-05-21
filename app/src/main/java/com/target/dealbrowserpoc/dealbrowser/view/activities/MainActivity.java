@@ -1,10 +1,13 @@
-package com.target.dealbrowserpoc.dealbrowser;
+package com.target.dealbrowserpoc.dealbrowser.view.activities;
 
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+
+import com.target.dealbrowserpoc.dealbrowser.view.fragments.DealListFragment;
+import com.target.dealbrowserpoc.dealbrowser.R;
 
 public class MainActivity extends Activity implements DealListFragment.OnFragmentInteractionListener {
 

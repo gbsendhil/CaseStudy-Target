@@ -1,4 +1,4 @@
-package com.target.dealbrowserpoc.dealbrowser;
+package com.target.dealbrowserpoc.dealbrowser.adapters;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -10,6 +10,7 @@ import android.widget.TextView;
 
 import java.util.List;
 
+import com.target.dealbrowserpoc.dealbrowser.R;
 import com.target.dealbrowserpoc.dealbrowser.deals.DealItem;
 
 public class DealListItemAdapter extends BaseAdapter {
@@ -22,7 +23,7 @@ public class DealListItemAdapter extends BaseAdapter {
         return new DealListItemAdapter(context, items);
     }
 
-    protected DealListItemAdapter(Context ctx, List<DealItem> items) {
+    public DealListItemAdapter(Context ctx, List<DealItem> items) {
         super();
         context = ctx;
         inflater = LayoutInflater.from(context);

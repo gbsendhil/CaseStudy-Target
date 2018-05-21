@@ -1,4 +1,4 @@
-package com.target.dealbrowserpoc.dealbrowser;
+package com.target.dealbrowserpoc.dealbrowser.view.fragments;
 
 import android.app.Activity;
 import android.app.ListFragment;
@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ListView;
 
+import com.target.dealbrowserpoc.dealbrowser.adapters.DealListItemAdapter;
 import com.target.dealbrowserpoc.dealbrowser.deals.DealContent;
 
 public class DealListFragment extends ListFragment {
