@@ -45,6 +45,9 @@ dependencies {
 
     testImplementation 'junit:junit:4.12'
     testImplementation 'com.nhaarman:mockito-kotlin:1.5.0'
+
+    //Architecture Components
+    implementation "android.arch.lifecycle:extensions:1.1.1"
 }
 repositories {
     mavenCentral()
