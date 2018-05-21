@@ -53,6 +53,8 @@ public class MainFragment extends Fragment implements SwipeRefreshLayout.OnRefre
                 .subscribe(response -> {
                     List<Product> productList = new ArrayList<>();
                     for(Data item : response.getData()){
+
+                        //TODO Use JAVA8 streams to map the data to the required place holder and change target API level 24
                         //System.out.println(item.getDescription());
 //                        Product newProduct = new Product(item.getIndex(),item.get_id(), item.getTitle(), item.getDescription(),
 //                                new BigDecimal(item.getPrice()), new BigDecimal(item.getSalePrice()),item.getImage(),item.getAisle());
