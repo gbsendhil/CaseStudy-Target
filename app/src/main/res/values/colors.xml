@@ -1,13 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <drawable name="actionbar_color">#ffcc0000</drawable>
-    <drawable name="white_color">#ffffffff</drawable>
-    <drawable name="gray_color">#ff666666</drawable>
-
     <color name="colorPrimary">@color/blue4</color>
     <color name="colorPrimaryDark">@color/blue5</color>
     <color name="colorAccent">#FF4081</color>
 
+    <color name="red2">#c40909</color>
     <color name="blue4">#00aab1</color>
     <color name="blue5">#007f85</color>
+    <color name="blue6">#00494d</color>
+    <color name="White">#fff</color>
+    <color name="Grey">#c3c3c3 </color>
+    <color name="mediumLightGrey">#d9d9d9 </color>
+    <color name="lightGrey">#f2f2f2 </color>
+    <color name="DarkGrey">#4d4d4d </color>
+    <color name="Black">#000 </color>
+
+    <color name="lightOrange">#ffebcc</color>
+    <color name="mediumLightOrange">#ffcc80</color>
+    <color name="orange">#ffad33</color>
 </resources>
